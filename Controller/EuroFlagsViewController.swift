@@ -12,8 +12,6 @@ class EuroFlagsViewController: UIViewController, UICollectionViewDataSource, UIC
     
 
     
-    
-    
     @IBOutlet weak var collectionView: UICollectionView!
     
     var countryList : [CountryResult] = []
@@ -44,7 +42,7 @@ class EuroFlagsViewController: UIViewController, UICollectionViewDataSource, UIC
         let country = countryList[indexPath.item]
         
         cell.countryNameLabel.text = country.name.common
-  //      cell.countryCapitalLabel.text = country.c
+  //     cell.countryCapitalLabel.text = country.c
         
 
         
